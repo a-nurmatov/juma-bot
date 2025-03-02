@@ -6,4 +6,4 @@ jobs:
   send-juma:
     runs-on: ubuntu-latest
     steps:
-      - run: curl -X POST https://your-vercel-app.vercel.app/api/send-juma
+      - run: curl -X POST https://juma-bot.vercel.app/api/send-juma

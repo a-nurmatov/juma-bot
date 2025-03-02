@@ -6,7 +6,8 @@
     "start": "ts-node api/telegram.ts",
     "build": "tsc",
     "deploy": "vercel --prod",
-    "format": "prettier --write ."
+    "format": "prettier --write .",
+    "set-webhook": "ts-node scripts/set-webhook.ts"
   },
   "keywords": [],
   "author": "",

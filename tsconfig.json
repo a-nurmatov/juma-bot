@@ -6,8 +6,9 @@
     "rootDir": "./",
     "strict": true,
     "esModuleInterop": true,
-    "skipLibCheck": true
+    "skipLibCheck": true,
+    "moduleResolution": "node"
   },
-  "include": ["**/*.ts"],
+  "include": ["api/**/*.ts", "src/**/*.ts", "scripts/**/*.ts"],
   "exclude": ["node_modules"]
 }

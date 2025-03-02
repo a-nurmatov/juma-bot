@@ -1,7 +1,7 @@
 const IMG_CAPTIONS = [
-  '🌸 *Juma Mubarak!* May this Friday bring peace and blessings to you and your loved ones.',
-  '🕌 *Juma Mubarak!* Wishing you a day filled with serenity and divine grace.',
-  '✨ *Juma Mubarak!* May Allah accept your prayers and grant you happiness.',
+  '🌸 *Juma Mubarak!* May this Friday bring peace and blessings.',
+  '🕌 *Juma Mubarak!* Wishing you serenity and divine grace.',
+  '✨ *Juma Mubarak!* May Allah accept your prayers.',
 ];
 
 let captionOrder = 0;
