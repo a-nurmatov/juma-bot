@@ -1,0 +1,25 @@
+# Node.js
+node_modules/
+dist/
+npm-debug.log
+yarn-error.log
+
+# Environment variables
+.env
+
+# Vercel
+.vercel
+
+# Logs
+logs/
+*.log
+
+# Editor files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# OS files
+.DS_Store
+Thumbs.db

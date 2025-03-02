@@ -1,0 +1,9 @@
+name: Send Juma Mubarak
+on:
+  schedule:
+    - cron: '0 0 * * 5' # Every Friday at 0:00 UTC
+jobs:
+  send-juma:
+    runs-on: ubuntu-latest
+    steps:
+      - run: curl -X POST https://your-vercel-app.vercel.app/api/send-juma

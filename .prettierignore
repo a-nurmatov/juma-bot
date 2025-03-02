@@ -1,0 +1,21 @@
+# Node.js
+node_modules/
+dist/
+
+# Build and deployment
+.vercel
+*.log
+
+# Configuration files
+package-lock.json
+yarn.lock
+
+# Environment variables
+.env
+
+# Generated files
+*.min.js
+*.min.css
+
+# Non-code files
+*.md
